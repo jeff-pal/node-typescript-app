@@ -22,12 +22,12 @@ Manually create `tsconfig.json` in the root path with the following options:
     "module": "commonjs",
     "allowJs": true,
     "outDir": "./build",
-    "esModuleInterop": true,
+    "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["app.ts", "src"],
   "exclude": [
     "**/*.spec.?s",
-    "**/*.test.?s",
+    "**/*.test.?s"
   ]
 }
 ```
