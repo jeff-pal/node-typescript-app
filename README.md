@@ -1,5 +1,32 @@
+# Run
+
+## Start
+
+Run project on production
+
+npm
+
+```bash
+yarn start
+#Or
+npm run start
+```
+
+Run project on development:
+
+```bash
+yarn dev
+#Or
+npm run dev
+```
+
+# Step-by-step to create this project's basis
+
 ## Init
+
+```bash
 yarn init -y
+```
 
 ## Install Dependencies
 
