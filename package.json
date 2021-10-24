@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-typescript",
+  "name": "node-ts-basis",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,9 +8,10 @@
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   },
+  "bin": "./bin/cli.js",
   "scripts": {
-    "start":  "npm run build && node build/app",
-    "dev":  "ts-node app",
+    "start": "npm i && npm run build && node build/app",
+    "dev": "ts-node app",
     "build": "tsc"
   },
   "engines": {
