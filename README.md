@@ -1,8 +1,15 @@
 <img alt="Node Typescript logo" src="logo.png" width="10%">
 
-# Node Typescript
+# Node Typescript Application
 
-This is a Nodejs + Typescript project basis.
+This is a Nodejs + Typescript application basis.
+
+## Create a new Nodejs + Typescript application
+
+```bash
+npx create-node-ts-project my-app
+cd my-app
+```
 
 ## Start
 
